@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/lib/node_modules/angular/angular.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app="ngComponentApp">
+    <div id="container">
+        <div id="header"><h1>Angular Component</h1></div>
+        <div id="main">
+            <basic-ng-com-with-url></basic-ng-com-with-url>
+                <!-- <ng-com-with-scope name="name" age="age" gender="{{gender}}" callback="getCount(count)"></ng-com-with-scope> -->
+                <!-- <ng-com-lifecycle name="name"></ng-com-lifecycle>
+                <br />
+                <hr />
+                <br />
+                <h3>父级页面</h3>
+                <div>
+                    <span>"=" 示例：</span>
+                    <button ng-click="modifyName()">父级控制器修改姓名</button>
+                    <span>{{name}}</span>
+                </div>
+                <div>
+                    <span>"=" 示例：</span>
+                    <button ng-click="modifyAge()">父级控制器修改年龄</button>
+                    <span>{{age}}</span>
+                </div>
+                <div>
+                    <span>"@" 示例：</span>
+                    <span>用于传递字符串参数</span>
+                    <span>{{gender}}</span>
+                </div>
+                <div>
+                    <span>"&" 示例：</span>
+                    <span>父级页面作用域通过子级组件隔离作用域指定"&"被传递执行函数改变并输出到父级页面中</span>
+                    <span>{{count}}</span>
+                </div> -->
+
+            <!-- <basic-ng-com></basic-ng-com> -->
+            <!-- <ng-com-with-controller-as></ng-com-with-controller-as> -->
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <!-- <script src="./js/component/ngComLifecycle.js"></script> -->
+    <!-- <script src="./js/component/ngComWithScope.js"></script> -->
+    <script src="js/component/basicNgComWithUrl.js"></script>
+    <!-- <script src="./js/component/ngComWithController.js"></script> -->
+    <!-- <script src="./js/component/ngComWithControllerAs.js"></script> -->
+</body>
+</html>
